@@ -1,0 +1,38 @@
+##### Folders #####
+build/
+dist/
+node_modules/
+vendor/
+var/
+.tmp/
+
+# IDE's
+.vscode/
+.idea/
+
+
+##### Files #####
+ignore.*
+*.ignore.*
+
+# Environment variables and secret keys
+.env
+.venv
+venv
+.env.test
+*.pem
+
+# Logs
+logs/
+*.log
+
+# Mac OS
+.DS_Store
+
+# SSH Keys
+*.pub
+
+# Python
+*.pyc
+*.pyo
+__pycache__/
