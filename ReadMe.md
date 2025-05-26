@@ -25,7 +25,7 @@ This project sets up and runs a UHF RFID reader (YRM100\*) on a Raspberry Pi usi
     ```
     ID 11ca:0212 VeriFone Inc Verifone USB to Printer
     ```
-
+- If not, got to the last section of this ReadMe. 
 ---
 
 ### 2. 🧠 Configure the Serial Port
@@ -114,9 +114,7 @@ This:
 
 ✅ Afterward, verify:
 
-```bash
-bash
-CopyEdit
+```
 ls /dev/ttyUSB*
 # You should see something like /dev/ttyUSB0
 ```
